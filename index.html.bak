@@ -91,7 +91,7 @@
 
 						<!-- Work -->
 							<article id="work">
-								<h2 class="major">Work</h2>
+								<h2 class="major">GIS Work</h2>
 								<h3>Cambria County:</h3>
 								<h4>Mining and Mineral Ownership WebApp</h4>
 								<span class="image main"><a href="https://cambriapa.maps.arcgis.com/apps/webappviewer/index.html?id=2c4692ad4c054a6b9ae571c6ba3010ba"target="_blank"><img src="images/MiningMap.jpg" alt="" /></a></span>
@@ -106,6 +106,11 @@
 								<p> For example, below shows only new commercial construction permits in the City of Johnstown area.
 								
 								<span class="image main"><a href="images/PermitDashboard_NewConstruction.jpg"target="_blank"><img src="images/PermitDashboard_NewConstruction.jpg" alt="" /></a></span>
+								
+								<h4>Cambria Drone Request Form & Dashboard<h4>
+								<span class="image main"><a href="images/DroneDash.jpg"target="_blank"><img src="images/DroneDash.jpg" alt="" /></a></span></h4>
+								
+								<p>As a member of the Cambria County EMA Drone Team, I created a drone mission request form and an internal mission planning guide for team members using Survey 123 through our county's ArcGIS Portal. I also designed a corresponding Dashboard to review mission requests and statutes.</p>
 							
 							
 							
