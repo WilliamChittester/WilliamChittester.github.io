@@ -20,7 +20,7 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<span class="icon fa-map"></span>
 						</div>
 						<div class="content">
 							<div class="inner">
@@ -31,9 +31,10 @@
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">About Me</a></li>
-								<li><a href="#work">GIS Work</a></li>
-								<li><a href="#about">About</a></li>
+								<li><a href="#aboutme">About Me</a></li>
+								<li><a href="#GISwork">GIS Work</a></li>
+								<li><a href="#cartography">Cartography</a></li>
+								<li><a href="#drones">Drones</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -43,14 +44,14 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Intro -->
-							<article id="intro">
+						<!-- AboutMe -->
+							<article id="aboutme">
 								<h2 class="major">About Me</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<span class="image main"id="ME"><img src="images/Will_Res.jpg" alt="" /></span>
 								<h3> Current Work: </h3>
 								<h4> Cambria County</h4>
-								<p>I am a Geographic Information Systems (GIS) Technician with Cambria County, in central Pennsylvania. I maintain the county surface and mineral tax parcel maps, develop public ArcGIS WebApps and internal ArcGIS Apps and Dashboards. As well as, create paper and PDF maps for Attorneys, Surveyors, Title Abstractors, and the General Public and provide technical guidance and recommendations on mapping and deed-related questions and issues.</p>
-								<p>I have also assisted with research and development of the Cambria County indoor mapping program through, program testing, mission planning and the collection of data using drones and mobile Lidar. </p>
+								<p>I am a Geographic Information Systems (GIS) Technician with Cambria County, in central Pennsylvania. I maintain the county surface and mineral tax parcel maps, and develop public ArcGIS WebApps and internal ArcGIS Apps and Dashboards. As well as, create paper and PDF maps for Attorneys, Surveyors, Title Abstractors, and the General Public and provide technical guidance and recommendations on mapping and deed-related questions and issues.</p>
+								<p>I have also assisted with the research and development of the Cambria County indoor mapping program through, program testing, mission planning, and the collection of data using drones and mobile Lidar. </p>
 								
 								
 								<h4>Freelance Cartography and Geospatial Anaylsis</h4>
@@ -61,7 +62,7 @@
 									<li>Custaloga Town Scout Reservation</li>
 									<li>Dauntless Fire Company</li></ul></p>
 									
-								<a href="#work">Example work</a></p>
+								<a href="#GISwork">Example work</a></p>
 									
 								<h3>Past Work:</h3>
 								<h4> Peter R Gould Center: Penn State Dept. of Geography</h4>
@@ -85,56 +86,163 @@
 									<li>AHA CPR & AED: BLS Provider</li>
 									<li>NWCG S-130, S-190, L-180, FI-110: Wildland Firefighter Training</li>
 									<li>FEMA ICS 100, 200 & NIMS 700</li>
-									
-								
+								</ul>	
+								<h3> Leadership / Other Activites: </h3>
+								<p> - Firefighter with Dauntless Fire Company in Ebensburg, PA and currently hold the rank of Leuitenant.</p>
+								<p> - I am also a firefighter and administion staff member of the Dividing Ridge Wildfire Support Crew, which responds to large wildfire throughout the State of Pennsylvania as part of the Bureau of Forestry's Forest Fire Protection Division.
 							</article>
 
-						<!-- Work -->
-							<article id="work">
+						<!-- GIS Work -->
+							<article id="GISwork">
 								<h2 class="major">GIS Work</h2>
 								<h3>Cambria County:</h3>
 								<h4>• Mining and Mineral Ownership WebApp</h4>
-								<span class="image main"><a href="https://cambriapa.maps.arcgis.com/apps/webappviewer/index.html?id=2c4692ad4c054a6b9ae571c6ba3010ba"target="_blank"><img src="images/MiningMap.jpg" alt="" /></a></span>
+								<span class="image main"><a href="https://cambriapa.maps.arcgis.com/apps/webappviewer/index.html?id=2c4692ad4c054a6b9ae571c6ba3010ba"target="_blank"><img src="images/MiningMap.webp" alt="" /></a></span>
 								
 								<p>This application was built using ESRI WebApp tools and MapViewer, and displays current mineral parcel ownership information within Cambria County and also shows active, planned, and past mining activity throughout PA using data obtained from PA DEP.</p>
 								
 								<h4>• Building Permit Dashboard</h4>
 								
-								<span class="image main"><a href="images/PermitDashboard.jpg"target="_blank"><img src="images/PermitDashboard.jpg" alt="" /></a></span>
+								<span class="image main"><a href="images/PermitDashboard.png"target="_blank"><img src="images/PermitDashboard.webp" alt="" /></a></span>
 								
 								<p>The Building Permit Dashboard was developed to help tax assessors interpret the status of Cambria County’s Building Permit Database.  The Dashboard includes a map of the building permits, can summarize the permits by type and the permit review status, and can be filtered by permit date, type, or municipality.</p>
 								<p> For example, below shows only new commercial construction permits in the City of Johnstown area.
 								
-								<span class="image main"><a href="images/PermitDashboard_NewConstruction.jpg"target="_blank"><img src="images/PermitDashboard_NewConstruction.jpg" alt="" /></a></span>
+								<span class="image main"><a href="images/PermitDashboard_NewConstruction.png"target="_blank"><img src="images/PermitDashboard_NewConstruction.webp" alt="" /></a></span>
 								
 								<h4>• Cambria Drone Request Form & Dashboard<h4>
-								<span class="image main"><a href="images/DroneDash.jpg"target="_blank"><img src="images/DroneDash.jpg" alt="" /></a></span></h4>
+								<span class="image main"><a href="images/DroneDash.png"target="_blank"><img src="images/DroneDash.webp" alt="" /></a></span></h4>
 								
 								<p>As a member of the Cambria County EMA Drone Team, I created a drone mission request form and an internal mission planning guide for team members using Survey 123 through our county's ArcGIS Portal. I also designed a corresponding Dashboard to review mission requests and statutes.</p>
 							
-							<h3>Freelance GIS Analysis:<h3>
-							<h4>PA Bureau of Forestry Dist. 6<br>• Sugar Run Wildfire Analysis</br></h4>
-							<p>In February of 2020 I assisted Fire Forester Mandy Burgoon from the PA Bureau of Forestry District 6, by providing a GIS-based analysis of a wildfire-prone area known as Sugar Run in Blair County. This was to aid in the creation of a wildfire management plan specific to that area.</p>
-							<span class="image main"><a href="images/ProjectOverviewAerial.png"target="_blank"><img src="images/ProjectOverviewAerial.png" alt="" /></a></span>
-							
-							<p>I reviewed 35 years of Landsat imagery to identify burn scars from wildfires and extract the fire parameters. I then converted this data into raster masks and used it to calculate normalized burn ratios.  Finally, I combined these fire parameters using the raster calculator, to create a fire frequency map to show how often areas of Sugar Run have experienced a fire.</p>.
-							
-							<span class="image main"><a href="images/FireFrequencyTopo.png"target="_blank"><img src="images/FireFrequencyTopo.png" alt="" /></a></span>
-							
-							
+								<h3>Freelance GIS Analysis:<h3>
+								<h4>PA Bureau of Forestry Dist. 6<br>• Sugar Run Wildfire Analysis</br></h4>
+								<p>In February of 2020 I assisted Fire Forester Mandy Burgoon from the PA Bureau of Forestry District 6, by providing a GIS-based analysis of a wildfire-prone area known as Sugar Run in Blair County. This was to aid in the creation of a wildfire management plan specific to that area.</p>
+								<span class="image main"><a href="images/ProjectOverviewAerial.png"target="_blank"><img src="images/ProjectOverviewAerial.webp" alt="" /></a></span>
+								
+								<p>I reviewed 35 years of Landsat imagery to identify burn scars from wildfires and extract the fire parameters. I then converted this data into raster masks and used it to calculate normalized burn ratios.  Finally, I combined these fire parameters using the raster calculator, to create a fire frequency map to show how often areas of Sugar Run have experienced a fire.</p>
+								
+								<span class="image main"><a href="images/FireFrequencyTopo.png"target="_blank"><img src="images/FireFrequencyTopo.webp" alt="" /></a></span>
+								
+								<p>Finally, I performed a fire potential analysis using slope, aspect, and fuel type to determine areas of higher fire risk by reclassifying the rasters of each attribute into ranked categories based on their influence on the rate of spread for wildfires. For example, a steep slope would have a higher ranking due to the increased rate of spread.</p>
+								
+								<span class="image main"><a href="images/FirePotential.png"target="_blank"><img src="images/FirePotential.webp" alt="" /></a></span>
 							</article>
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+						<!-- Carto -->
+							<article id="cartography">
+								<h2 class="major">Cartographic Work</h2>
+								<h3>Freelance:<h3>
+								<h4>Custaloga Town Scout Reservation<br>• Hiking Trail Map</br></h4>
+								
+								<span class="image main"><a href="images/CTSR_TrailMap.png"target="_blank"><img src="images/CTSR_TrailMap.webp" alt="" /></a></span>
+								<p>This project was built from the ground up, requiring the collection of camp locations and trails using GPS, as there was no preexisting geospatial data for the facility. The collected data and contours from USGS 3dep Lidar were managed and created using QGIS.  The final design and publishing of the hiking map were completed with Adobe Illustrator.</p>
+								
+								<h4>PA Bureau of Forestry Dist. 6<br>• Wildfire Preplan Maps</br></h4>
+								<span class="image main"><a href="images/Coburn_FireTopo_GeoPDF.pdf"target="_blank"><img src="images/Coburn_FireTopo_GeoPDF.webp" alt="" /></a><i>Coburn Curve: Altoona PA, Blair County</i></span>
+								
+								
+								<span class="image main"><a href="images/PackSaddle_FireTopo_GeoPDF.pdf"target="_blank"><img src="images/PackSaddle_FireTopo_GeoPDF.webp" alt="" /></a><i>Packsaddle Ridge: Blairsville PA, Indiana County</i></span>
+								
+								<p>I designed and published a series of topographic maps for known wildfire-prone areas within Blair, Indiana, and Cambria Counties, all part of the PA Bureau of Forestry's District 6.  I also assisted in the identification of landowners during wildfire origin investigations and with the instruction of wildfire training for local fire companies.</p>
+								
+								<h4>Dauntless Fire Company<br>• 2020 Memorial Day Parade</br></h4>
+								<span class="image main"><a href="images/2020 Memorial Day Parade Logo.jpg"target="_blank"><img src="images/2020 Memorial Day Parade Logo.webp" alt="" /></a></span>
+								
+								<p>With the Covid-19 Pandemic canceling most community events during 2020, the decision was made to hold a town-wide Memorial Day Parade in Ebensburg. As a member of the Dauntless Fire Company, the coordinating agency for the parade, I designed this map to better explain the parade route for the residents of the Borough.</p>  
+								
+								<h4>Pennsylvania State University: Transportation Services<br>• Student and Faculty Parking Maps</br></h4>
+								<span class="image main"><a href="http://innovationpark.2stayconnected.com/docs/parking-walking-map-pdf.pdf"target="_blank"><img src="images/2019_InnovPark_Parking.webp" alt="" /></a></span>
+								
+								<p>I updated and created new public-facing and internal parking maps for The Penn State University Transportation Services Office from 2016 to 2021. These maps were created using a combination of QGIS for data management and Adobe Illustrator for design. They also utilized a required design standard established by the university and were designed to match an existing series of maps.<p>
+							</article>
+						
+						
+						<!-- Drones -->
+							<article id="drones">
+								<h2 class="major">Drones</h2>
+								
+								<!-- Slideshow container -->
+								<div class="slideshow-container">
+
+								  <!-- Full-width images with number and caption text -->
+								  <div class="mySlides fade">
+									<div class="numbertext">1 / 3</div>
+									<img src="images/Heydrick_1.webp" style="width:100%">
+									<div class="text">Heydrick House: Custaloga Scout Reservation</div>
+								  </div>
+
+								  <div class="mySlides fade">
+									<div class="numbertext">2 / 3</div>
+									<img src="images/Overview_After.webp" style="width:100%">
+									<div class="text">Greystone Cottages: Spruce Creek, PA</div>
+								  </div>
+
+								  <div class="mySlides fade">
+									<div class="numbertext">3 / 3</div>
+									<img src="images/DuckPondFall.webp" style="width:100%">
+									<div class="text">Duck Pond in Fall: Ebensburg, PA</div>
+								  </div>
+
+								  <!-- Next and previous buttons 
+								  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+								  <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+								</div>
+								<br>
+
+								<!-- The dots/circles -->
+								<div style="text-align:center">
+								  <span class="dot" onclick="currentSlide(1)"></span>
+								  <span class="dot" onclick="currentSlide(2)"></span>
+								  <span class="dot" onclick="currentSlide(3)"></span>
+								</div>
+								
+								<script>
+									let slideIndex = 0;
+									showSlides();
+
+									function showSlides() {
+									  let i;
+									  let slides = document.getElementsByClassName("mySlides");
+									  let dots = document.getElementsByClassName("dot");
+									  for (i = 0; i < slides.length; i++) {
+										slides[i].style.display = "none";  
+									  }
+									  slideIndex++;
+									  if (slideIndex > slides.length) {slideIndex = 1}    
+									  for (i = 0; i < dots.length; i++) {
+										dots[i].className = dots[i].className.replace(" active", "");
+									  }
+									  slides[slideIndex-1].style.display = "block";  
+									  dots[slideIndex-1].className += " active";
+									  setTimeout(showSlides, 5000); // Change image every 2 seconds
+									}
+								</script>
+								<p>In October of 2019 I achieved my goal of becoming an FAA Certified Part 107 Commercial Drone Pilot, and was a founding member of the Cambria County Drone Program, whose mission is to provide Emergency Response, and assistance with County and Community projects, and provide drone education outreach.</p>
+								
+								<span class="image main" id="M200"><a href="images/M200LifeJacket.jpg"target="_blank"><img src="images/M200LifeJacket.jpg" alt="" /></a></span>
+								
+								<p> I have fight experience with both DJI and Autel Drones and have served in multiple roles. From in-depth mission planning and operating as the remote pilot in charge (RPIC) to post-mission data processing.  In particular, I specialize in drone mapping, 3D Modeling, and general photography.
+								
+								<span class="image main"><a href="images/Ebensburg_Jail_3D_Model2.gif"target="_blank"><img src="images/Ebensburg_Jail_3D_Model2.gif" alt="" /></a></span>
+																
+																
+								
+								
+								
+								
+								
+								
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
+								<h3> Email: <br><h4><i>will.chittester@gmail.com</i></h4></br></h3>
+								<h3> Address: <br><h4><i>408 W Horner St Apt #20</br><br>Ebensburg, PA 15931</i></h4></br></h3>
+								
+								
+								<form method="post" action="mailto:will.chittester@gmail.com">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -154,11 +262,12 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
+								
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>-->
 								</ul>
 							</article>
 
@@ -408,7 +517,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; William Chittester. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
